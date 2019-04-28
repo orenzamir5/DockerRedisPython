@@ -7,7 +7,7 @@ chromedriver_path = '/Users/orenz/Downloads/chromedriver'
 driver = webdriver.Chrome(executable_path=chromedriver_path)
 
 # Go to site
-driver.get('http://192.168.99.100:5000')
+driver.get('http://35.203.191.24:5000')
 
 # Print body
 element = driver.find_element_by_tag_name('body')
